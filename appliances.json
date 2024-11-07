@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "Living Room Light",
+        "status": false
+    },
+    "2": {
+        "name": "Kitchen Light",
+        "status": false
+    },
+    "3": {
+        "name": "Bedroom Fan",
+        "status": false
+    }
+}

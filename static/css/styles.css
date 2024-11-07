@@ -1,0 +1,53 @@
+
+/* static/css/styles.css */
+body {
+    background: #121212 url('../images/background-texture.png') repeat;
+    color: #e0e0e0;
+}
+
+.text-accent {
+    color: #ffcc00;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(255, 204, 0, 0.2);
+}
+
+.appliance-img {
+    width: 150px;   /* Increase size */
+    height: 150px;  /* Maintain aspect ratio for larger image */
+    transition: transform 0.3s;
+}
+
+.toggle-btn {
+    width: 120px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.btn-on {
+    background-color: #ffcc00;
+    color: #1f1f1f;
+}
+
+.btn-on:hover {
+    box-shadow: 0px 4px 15px rgba(255, 204, 0, 0.5);
+}
+
+.btn-off {
+    background-color: #444;
+    color: #e0e0e0;
+}
+
+.btn-off:hover {
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+}
